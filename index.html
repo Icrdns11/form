@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Graficar's</title>
+</head>
+
+<body>
+
+            <form action="./form.php" method="post">
+              <div>
+                <label for="name" class="p cfp">Nombre:</label>
+                <input for="Nombre" type="name" placeholder="Escribe tu Nombre" class="form-input fit" name="name" id="nombre" required>
+              </div>
+              <div>
+                <label for="email" class="p cfp">Correo Electrónico:</label><br>
+                <input type="email" placeholder="123@gmail.com" class="form-input fit" name="email" required>
+              </div>
+              <div>
+                <label for="message-text" class="p cfp">Mensaje:</label>
+                <textarea class="text form-input fim" name="message" id="message" placeholder="Escribe tu mensaje" required></textarea>
+              </div>
+              <div id="mensaje-en" class=" flex-column align-items-center justify-content-center">
+                <p class="pm text-center mensaje-en">Su mensaje ha sido recibido</p>
+              </div>
+              <div class="d-flex justify-content-between justify-content-lg-end">
+                <button type="button" class="bot-sec-az cl" data-bs-dismiss="modal" aria-label="Close">Cerrar</button>
+                <button type="submit" class="cta" id="enviar">Enviar</button>
+              </div>
+            </form>
+</body>
+</html>
